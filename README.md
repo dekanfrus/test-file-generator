@@ -4,17 +4,17 @@
 ## Usage:
   TestFileGenerator.exe --InputFile filenames.txt --Num 200 --OutputDir C:\temp\docs --URL http://en.wikipedia.org/wiki/special:Random
 
-  -i, --InputFile    Required. Input file containing list of filenames. Do NOT include extensions.
+  -i, --InputFile	-	Required. Input file containing list of filenames. Do NOT include extensions.
 
-  -o, --OutputDir    Required. Directory to output the documents.
+  -o, --OutputDir	-	Required. Directory to output the documents.
 
-  -n, --Num          The number of files to generate. (Default: 200)
+  -n, --Num	-	The number of files to generate. (Default: 200)
 
-  -u, --URL          URL of Website to copy (Default: http://en.wikipedia.org/wiki/special:Random)
+  -u, --URL	-	URL of Website to copy (Default: http://en.wikipedia.org/wiki/special:Random)
 
-  --help             Display this help screen.
+  --help	-	Display this help screen.
 
-  --version          Display version information.
+  --version	-	Display version information.
 
 ## Background:                                                                                      
 While designing a CTF type infrastructure for a Cybersecurity competition, I needed              
@@ -26,7 +26,7 @@ This project expands David Palfery's "Test Document Generator" console applicati
 to accept a file containing potential filenames, a number of documents to generate,              
 a URL to copy, and an output directory.       
 
-## Credit:
+## Acknowledgments:
 David Palfery - https://blogs.perficient.com/2013/04/16/test-document-generator/
 
 ## Todo:
