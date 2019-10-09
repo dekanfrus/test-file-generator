@@ -64,7 +64,7 @@ namespace DocumentGenerator
             [Option('u', "URL", Required = false, HelpText = "URL of Website to copy (Default: http://en.wikipedia.org/wiki/special:Random)")]
             public string URL { get; set; }
 
-            [Usage(ApplicationAlias = "TestDocumentGenerator.exe")]
+            [Usage(ApplicationAlias = "TestFileGenerator.exe")]
             public static IEnumerable<Example> Examples
             {
                 get
